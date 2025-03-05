@@ -23,8 +23,14 @@ cd stackoverflow-tag-suggester
 
 2. Créer un environnement virtuel :
 ```bash
-python -m venv venv
+python3 -m venv venv
+```
+
+```bash
 source venv/bin/activate  # Linux/Mac
+```
+
+```bash
 .\venv\Scripts\activate   # Windows
 ```
 
@@ -54,17 +60,17 @@ stackoverflow-tag-suggester/
 
 1. Collecte des données :
 ```bash
-python src/data/collect_data.py
+python3 src/data/collect_data.py
 ```
 
 2. Entraînement des modèles :
 ```bash
-python src/models/train_models.py
+python3 src/models/train_models.py
 ```
 
 3. Lancement de l'API :
 ```bash
-python src/api/app.py
+python3 src/api/app.py
 ```
 
 ## 📊 MLflow UI
